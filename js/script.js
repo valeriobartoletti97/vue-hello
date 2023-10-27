@@ -7,7 +7,7 @@ const app = createApp({
         subtitle: 'Questi siete voi ogni pomeriggio:',
         img: 'img/marco-e-stefano.png',
         subColor: 'sub-color',
-        /* appBg: 'app-bg' */
+        bgColor: 'app-bg',
     }
   } 
 });

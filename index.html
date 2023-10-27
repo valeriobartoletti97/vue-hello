@@ -9,10 +9,12 @@
 </head>
 <body>
     <div id="app">
-        <h1 class="text-center mt-4">{{title}}</h1>
-        <h2 :class="subColor" class="text-center mt-2">{{subtitle}}</h2>
-        <div class="d-flex justify-content-center overflow-hidden mx-auto">
-            <img :src="img" alt="Marco e Stefano">
+        <div :class="bgColor" class="pb-5">
+            <h1 class="text-center text-white pt-4">{{title}}</h1>
+            <h2 :class="subColor" class="text-center mt-2 mb-3">{{subtitle}}</h2>
+            <div class="d-flex justify-content-center overflow-hidden mx-auto">
+                <img :src="img" alt="Marco e Stefano">
+            </div>
         </div>
     </div>
 
